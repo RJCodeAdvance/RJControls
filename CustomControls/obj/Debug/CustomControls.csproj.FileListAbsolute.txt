@@ -1,0 +1,19 @@
+D:\RJ Code Advance\Source Code C#\2021\CustomControls\CustomControls\bin\Debug\CustomControls.pdb
+D:\RJ Code Advance\Source Code C#\2021\CustomControls\CustomControls\obj\Debug\CustomControls.Form1.resources
+D:\RJ Code Advance\Source Code C#\2021\CustomControls\CustomControls\obj\Debug\CustomControls.Properties.Resources.resources
+D:\RJ Code Advance\Source Code C#\2021\CustomControls\CustomControls\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+D:\RJ Code Advance\Source Code C#\2021\CustomControls\CustomControls\obj\Debug\CustomControls.csproj.GenerateResource.cache
+D:\RJ Code Advance\Source Code C#\2021\CustomControls\CustomControls\obj\Debug\CustomControls.csproj.CoreCompileInputs.cache
+D:\RJ Code Advance\Source Code C#\2021\CustomControls\CustomControls\obj\Debug\CustomControls.pdb
+D:\RJ Code Advance\Source Code C#\2021\CustomControls - DLL\CustomControls\obj\Debug\CustomControls.csproj.AssemblyReference.cache
+D:\RJ Code Advance\Source Code C#\2021\CustomControls - DLL\CustomControls\obj\Debug\CustomControls.Form1.resources
+D:\RJ Code Advance\Source Code C#\2021\CustomControls - DLL\CustomControls\obj\Debug\CustomControls.Properties.Resources.resources
+D:\RJ Code Advance\Source Code C#\2021\CustomControls - DLL\CustomControls\obj\Debug\CustomControls.RJControls.RJTextBox.resources
+D:\RJ Code Advance\Source Code C#\2021\CustomControls - DLL\CustomControls\obj\Debug\CustomControls.csproj.GenerateResource.cache
+D:\RJ Code Advance\Source Code C#\2021\CustomControls - DLL\CustomControls\obj\Debug\CustomControls.csproj.CoreCompileInputs.cache
+D:\RJ Code Advance\Source Code C#\2021\CustomControls - DLL\CustomControls\obj\Debug\CustomControls.pdb
+D:\RJ Code Advance\Source Code C#\2021\CustomControls - DLL\CustomControls\bin\Debug\CustomControls.pdb
+D:\RJ Code Advance\Source Code C#\2021\CustomControls - DLL\CustomControls\bin\Debug\CustomControls.dll
+D:\RJ Code Advance\Source Code C#\2021\CustomControls - DLL\CustomControls\obj\Debug\CustomControls.dll
+D:\RJ Code Advance\Source Code C#\2021\CustomControls\CustomControls\bin\Debug\CustomControls.dll
+D:\RJ Code Advance\Source Code C#\2021\CustomControls\CustomControls\obj\Debug\CustomControls.dll
