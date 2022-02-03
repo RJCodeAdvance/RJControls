@@ -74,6 +74,13 @@ namespace RJCodeAdvance.RJControls
         }
 
         [Category("RJ Code Advance")]
+        public bool IsPlaceHolder
+        {
+          get { return this.isPlaceholder; }
+          set { this.isPlaceholder = value; }
+        }
+
+        [Category("RJ Code Advance")]
         public bool UnderlinedStyle
         {
             get { return underlinedStyle; }
