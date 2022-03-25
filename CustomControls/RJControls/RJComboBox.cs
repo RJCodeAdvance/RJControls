@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -80,6 +80,7 @@ namespace CustomControls.RJControls
             this.Padding = new Padding(borderSize);//Border Size
             this.Font = new Font(this.Font.Name, 10F);
             base.BackColor = borderColor; //Border Color
+            this.Load += new System.EventHandler(this.RJComboBox_Load);
             this.ResumeLayout();
             AdjustComboBoxDimensions();
         }
@@ -175,6 +176,7 @@ namespace CustomControls.RJControls
                 base.Font = value;
                 lblText.Font = value;
                 cmbList.Font = value;//Optional
+                AdjustComboBoxDimensions();
             }
         }
 
@@ -298,6 +300,10 @@ namespace CustomControls.RJControls
                 X = this.Width - this.Padding.Right - cmbList.Width,
                 Y = lblText.Bottom - cmbList.Height
             };
+            if (cmbList.Height >= this.Height)
+            {
+                this.Height = cmbList.Height + (this.borderSize*2);
+            }
         }
         #endregion
 
@@ -371,9 +377,14 @@ namespace CustomControls.RJControls
         protected override void OnResize(EventArgs e)
         {
             base.OnResize(e);
-            AdjustComboBoxDimensions();
+            if (DesignMode)
+                AdjustComboBoxDimensions();
         }
         #endregion
 
+        private void RJComboBox_Load(object sender, EventArgs e)
+        {
+            AdjustComboBoxDimensions();
+        }
     }
 }
