@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/CustomControls/v16/.suo
+/.vs/RJControls/v16/.suo
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/CustomControls/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttributes.cs
+/CustomControls/obj/Release/.NETFramework,Version=v4.5.AssemblyAttributes.cs
