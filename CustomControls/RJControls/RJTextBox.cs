@@ -31,6 +31,10 @@ namespace CustomControls.RJControls
         //Events
         public event EventHandler _TextChanged;
 
+        //Changeable properties for external control
+        public Boolean readOnly = false; // set ReadOnly state to true 
+        public Boolean scrollBar = false; // set a "Vertical" scroll bar for multiline textboxes
+
         #endregion
 
         //-> Constructor
@@ -334,10 +338,27 @@ namespace CustomControls.RJControls
         {
             if (_TextChanged != null)
                 _TextChanged.Invoke(sender, e);
+
+            // if readonly true
+            if (readOnly)
+                textBox1.ReadOnly = true;
+            else
+                textBox1.ReadOnly = false;
+
+            // if scroll bar true
+            if (scrollBar)
+                textBox1.ScrollBars = ScrollBars.Vertical;
+            else
+                textBox1.ScrollBars = ScrollBars.None;
         }
         private void textBox1_Click(object sender, EventArgs e)
         {
             this.OnClick(e);
+
+            if (readOnly)
+                textBox1.ReadOnly = true;
+            else
+                textBox1.ReadOnly = false;
         }
         private void textBox1_MouseEnter(object sender, EventArgs e)
         {
